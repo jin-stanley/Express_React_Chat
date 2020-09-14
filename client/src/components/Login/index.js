@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
+import "./index.css";
+
 const Login = () => {
   const [name, setName] = useState("");
   const [room, setRoom] = useState("");
@@ -8,7 +10,7 @@ const Login = () => {
   return (
     <div className="joinOuterContainer">
       <div className="joinInnerContainer">
-        <h1 className="heading">Join</h1>
+        <h1 className="heading">Sign In</h1>
         <div>
           <input
             placeholder="Name"
